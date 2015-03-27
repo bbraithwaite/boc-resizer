@@ -1,0 +1,25 @@
+{
+  "name": "boc-resizer",
+  "version": "1.0.0",
+  "description": "JavaScript library for choosing appropriately sized image based on browser window size.",
+  "main": "index.js",
+  "scripts": {
+     "start": "http-server -a localhost -p 8000 -c-1 -s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bbraithwaite/boc-resizer.git"
+  },
+  "author": "https://github.com/bbraithwaite",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bbraithwaite/boc-resizer/issues"
+  },
+  "homepage": "https://github.com/bbraithwaite/boc-resizer",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.1",
+    "grunt-contrib-uglify": "^0.8.0",
+    "http-server": "^0.8.0"
+  }
+}
